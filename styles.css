@@ -526,15 +526,21 @@ article.education > h3 {
 
 
 
-article.portfolio > ul {
+#portfolio > ul {
   display: flex;
   margin: 30px 0;
   padding: 15px 20px;
+  align-items: baseline;
 }
 
 
 #portfolio-list img{
+  /*object-fit: cover;
+  max-width: 640px;
+  max-height: 350px;*/
   width: 100%;
+  max-height: 300px;
+  object-fit: cover;
   border-radius: 20px;
 }
 
@@ -551,6 +557,14 @@ article.portfolio > ul {
 #portfolio-list li {
   width: 100%;
   height: min-content;
+}
+
+#portfolio-list h4 {
+  margin: 20px 0;
+}
+
+#portfolio-list p {
+  margin-bottom: 20px;
 }
 
 #portfolio-list img:hover {
