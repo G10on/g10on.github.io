@@ -130,6 +130,9 @@ aside h4 {
 
 
 
+.only-big {
+  display: none;
+}
 
 .aside_section {
   margin: 20px 0;
@@ -440,6 +443,15 @@ article > h2 {
 
     max-width: fit-content;
   }
+
+  .only-big {
+    display: block;
+  }
+
+  .only-small {
+    display: none;
+  }
+  
   
   aside {
     position: fixed;
