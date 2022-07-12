@@ -100,18 +100,28 @@ aside h4 {
 }
 
 .aside_contact ul {
-  align-items: center;
+  /*align-items: center;
   display: flex;
   justify-content: center;
+  */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .aside_contact li {
   display: inline;
-  margin: 0 8px;
+  text-align: center;
+  width: 55px;
+  padding: 3px;
+  margin: 1px;
+  border: 0px solid gray;
+  border-radius: 15px;
+  box-shadow: 0px 15px 30px -10px #f67280;
 }
 
 .aside_contact i {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .fa-linkedin-square {
@@ -124,6 +134,10 @@ aside h4 {
 
 .fa-envelope {
   color: #dd4b39;
+}
+
+.fa-phone {
+  color: #186;
 }
 
 #download {
