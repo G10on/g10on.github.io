@@ -46,6 +46,7 @@ aside {
   /*max-width: 150px;
   max-height: max-content;*/
   object-fit: cover;
+  object-position: top;
   width: 150px;
   height: 150px;
   border-radius: 999px;
