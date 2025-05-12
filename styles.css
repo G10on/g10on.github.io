@@ -30,7 +30,7 @@ aside {
   overflow: hidden;
   border-radius: 20px;
   border: 2px solid white;
-  box-shadow: 0px 0px 20px #f67280;
+  box-shadow: 0px 0px 20px #51bf8a;
 
   display: flex;
   flex-direction: column;
@@ -82,7 +82,7 @@ aside {
   width: 150px;
   height: 150px;
   border-radius: 999px;
-  box-shadow: 0px 25px 30px -15px #f67280;
+  box-shadow: 0px 25px 30px -15px #51bf8a;
   margin: auto 0;
 }
 
@@ -147,7 +147,7 @@ aside h4 {
   margin: 1px;
   border: 0px solid gray;
   border-radius: 15px;
-  box-shadow: 0px 15px 30px -10px #f67280;
+  box-shadow: 0px 15px 30px -10px #51bf8a;
 }
 
 .aside_contact i {
@@ -189,7 +189,7 @@ aside h4 {
 .progress_bar {
   padding: 2px;
   width: 100%;
-  border: 2px solid #f67280;
+  border: 2px solid #51bf8a;
   height: 37px;
 
   border-radius: 15px;
@@ -197,12 +197,12 @@ aside h4 {
 
 .progress_bar .progress_perc {
   height: 100%;
-  background-color: #f67280;
+  background-color: #51bf8a;
   border-radius: 15px;
 }
 
 .skill-group { 
-  background-color: #292929;
+  background-color: #2F3E46;
   padding: 20px 15px;
   border-radius: 15px;
   margin: 30px 0;
@@ -212,6 +212,10 @@ aside h4 {
   gap: 20px;
   /* justify-content: space-between;
   height: fit-content;  */
+}
+
+.skill-group h4 {
+  color: #F2CC8F;
 }
 
 .skill-subsection-list {
@@ -396,14 +400,14 @@ nav button {
 }
 
 nav button.active {
-  text-shadow: 0 0 8px #f67280;
-  text-decoration: underline 5px #f67280;
+  text-shadow: 0 0 8px #51bf8a;
+  text-decoration: underline 5px #51bf8a;
   background-color: #1a1a1a;
   height: 100%;
 }
 
 nav button:hover {
-  text-shadow: 0 0 8px #f67280;
+  text-shadow: 0 0 8px #51bf8a;
 }
 
 article {
@@ -416,7 +420,7 @@ article {
 
   background-color: #f9f9f9;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px #f67280;
+  box-shadow: 0px 0px 20px #51bf8a;
 }
 
 article.active {
@@ -427,7 +431,7 @@ article.active {
 article > h2 {
   font-size: 40px;
   font-weight: 1000;
-  text-decoration: 6px underline #f67280;
+  text-decoration: 6px underline #51bf8a;
   /*position: sticky;
   top: 70px;*/
 }
@@ -460,7 +464,7 @@ article > h2 {
   padding: 35px 20px;
   overflow: hidden;
 
-  background-color: #0f1629;
+  background-color: #2F3E46;
   /*background: url("https://imgs.search.brave.com/90vfRq7ee_BF3jsqTkkzYdc3uJlNQqqJ-wyRP_niu08/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC40/YzItYWxBb1Q5OEZx/UVU5dGF4dUxnSGFF/SyZwaWQ9QXBp");
   background-size: cover*/
   border-radius: 15px;
@@ -472,10 +476,7 @@ article > h2 {
 
 .interest-topic-title {
   text-transform: uppercase;
-}
-
-#interest_list p {
-  color: #e6e6e3;
+  color: #F2CC8F;
 }
 
 #interest_list > li :not(p.interest-description) {
@@ -484,6 +485,7 @@ article > h2 {
 
 .interest-description {
   font-size: 1em;
+  color: #e6e6e3;
 }
 
 @media (max-width: 1149px) {
@@ -568,7 +570,7 @@ article > h2 {
 
 .education-list > li {
   list-style-type: disc;
-  color: #f67280;
+  color: #51bf8a;
 }
 
 .list-item-description > li {
