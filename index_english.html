@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="styles.css" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script type="module" src="script.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script
@@ -30,34 +31,35 @@
   <body>
     <main>
 
-    <div class="fixedButton">
+    <!-- <div class="fixedButton">
       <a href="index.html">
         <button style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/2560px-Bandera_de_Espa%C3%B1a.svg.png');">
-          <!-- <img id="lang-flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/2560px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png" alt="UK Flag">  -->
         </button>
       </a>
-    </div>
+    </div> -->
 
       <span id="nav-space"></span>
       <aside>
         <div class="img_name">
-          <img src="assets/Perfil3.JP" />
+          <img src="assets/Profile_simple_2.jpg" />
 
           <div class="title_subtitle">
-            <h1>Jiten Rajesh Parwani</h1>
+            <h1>Jiten R. P.</h1>
             <h3>Computer Science Engineer</h3>
 
+            <p class="location"> <i class="fa fa-map-marker-alt"></i> Spain</p>
+
             <div class="aside_contact">
-              <h4>Profiles</h4>
+              <!-- <h4>Profiles</h4> -->
               <ul>
                 <li>
                   <a href="https://linkedin.com/in/jiten-">
-                    <i class="fa fa-linkedin-square"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://github.com/g10on">
-                    <i class="fa fa-github"></i>
+                    <i class="fa-brands fa-github"></i>
                   </a>
                 </li>
                 <li>
@@ -69,8 +71,9 @@
             </div>
 
             <div id="download">
-              <a href="assets/CV_english.pdf" download>
-                Download Curriculum
+              <a href="">
+                <!-- Download Curriculum -->
+                 PDF resume in construction
               </a>
             </div>
           </div>
@@ -128,17 +131,17 @@
             <li>
               <button class="navbar-link" data-nav-link>Experience</button>
             </li>
-
-            <li>
-              <button class="navbar-link" data-nav-link>Projects</button>
-            </li>
             
-            <li>
+            <!-- <li>
               <button class="navbar-link" data-nav-link>Insights</button>
-            </li>
+            </li> -->
 
             <li>
               <button class="navbar-link" data-nav-link>Skills</button>
+            </li>
+
+            <li>
+              <button class="navbar-link" data-nav-link>Projects</button>
             </li>
 
             <li>
@@ -187,101 +190,107 @@
               </li>
 
               <li>
-                <p class="interest-topic-title">Blockchain</p>
+                <p class="interest-topic-title">Big-Picture Vision</p>
                 <p class="interest-description">
-                  I am interested in technologies like blockchain,
-                  that would give way to a more private virtual ecosystem, supported by a decentralized platform.
+                  Not just "how it works?", but also "why it matters in the broader system?". Focusing on how systems scale, evolve, and integrate over time.
                 </p>
               </li>
             </ul>
           </div>
         </article>
 
-        <article id="education" class="education" data-page="education">
-          <h2>Education</h2>
+        <article id="experience" class="experience" data-page="experience">
+          <h2>Experience</h2>
 
-          <h3>Degree</h3>
+          <h3>Indra Group</h3>
 
           <ul class="education-list">
             <li>
-              <p>Universidad de Las Palmas de Gran Canaria (ULPGC)</p>
-              <p>2019 - 2023</p>
+              <p class="job-title">Air Traffic Management Software Developer (Recording System Team)</p>
+              <p class="job-dates">2024/02 - present</p>
 
               <ul class="list-item-description">
-                <li>- Creation of programs in languages such as Python, Java, and C</li>
-                <li>- Web development with languages HTML5, CSS, JavaScript</li>
-                <li>- Use of frameworks such as Bootstrap, Angular, and IONIC for web development</li>
-                <li>- Introduction to intelligent systems, Machine Learning, and Tensorflow</li>
-                <li>- Acquisition of essential knowledge in networking</li>
-                <li>- Administration of the Linux operating system</li>
-                <li>- Introduction to databases</li>
-                <li>- Design of various search algorithms</li>
-                <li>- Adaptation to teamwork through agile Scrum methodologies</li>
+                <li>
+                  Developer in the Recording System Team of the Air Traffic Management branch in the company
+                </li>
+                <li>
+                  Collaborating closely with the team to integrate new features and ensure seamless operation within a <b>microservices</b>
+                  architecture, using Java Spring, Docker, Kubernetes, Helm and OpenShift for scalable deployment.
+                </li>
+                <li>
+                  Extensively developed <b>Java</b> Spring microservice applications in Linux environments, ensuring robust backend services aligned with industry standards.
+                </li>
+                <li>
+                  Created and maintained automation bash <b>scripts</b> that streamlined development processes, reducing setup and debugging times across the team.
+                </li>
+                <li>
+                  Optimized file searching processes, reducing search times and improving system responsiveness in large-scale data environments.
+                </li>
+                <li>
+                  Proactively leveraged AI tools to enhance technical knowledge and decision-making, using them to quickly assimilate the latest documentation, best practices, and architectural suggestions. Focused on extracting actionable insights and avoid generic or unreliable outputs, integrating AI-driven research into day-to-day problem-solving and continuous learning.
+                </li>
+                <li>
+                  Refactored legacy codebases to enhance maintainability, applying best practices in modularization and clean code, which reduced technical debt and simplified future feature development.
+                </li>
+                <li>
+                  Consistently improved understanding and application of maintainable and scalable software design principles, contributing to a culture of quality and continuous improvement within the engineering team.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <p class="job-title">Java Programmer - Internship</p>
+              <p class="job-dates">09/2022 - 12/2022</p>
+
+              <ul class="list-item-description">
+                <li>
+                  Support in a team project for a web-based document manager.
+                </li>
+                <li>
+                  Developed code in Java with Spring Framework and MySQL database.
+                </li>
+                <li>
+                  Performed assigned tasks following agile methodologies.
+                </li>
               </ul>
             </li>
           </ul>
-            
-
-          <h3>Short Courses</h3>
-
-          <ul class="education-list">
-            <li>
-              <p>Website Positioning and Digital Marketing Course</p>
-              <p>Summer 2019</p>
-              <ul class="list-item-description">
-                <li>- Knowledge of terminologies related to web page development</li>
-                <li>- Acquisition of knowledge about web programming languages (HTML, CSS)</li>
-                <li>- Familiarization with the field of online business marketing, as well as SEO</li>
-                <li>- Adaptation to teamwork</li>
-              </ul>
-            </li>
-          </ul>
-        
-
-          <h3>Online Short Courses</h3>
-
-          <ul class="education-list">
-            <li>
-              <p>Introduction to Cyber Security</p>
-              <p>Summer 2022</p>
-              <ul class="list-item-description">
-                <li>- Acquisition of basic knowledge in cybersecurity</li>
-                <li>- Familiarization with the most common types of cyberattacks</li>
-              </ul>
-            </li>
-            <li>
-              <p>Firewall</p>
-              <p>Summer 2022</p>
-              <ul class="list-item-description">
-                <li>- Acquisition of basic knowledge about firewalls</li>
-              </ul>
-            </li>
-          </ul>
-
-          <h3>Languages</h3>
-
-          <ul class="education-list">
-            <li>
-              <p>Spanish</p>
-            </li>
-            <li>
-              <p>English (B2)</p>
-            </li>
-            <li>
-              <p>Hindi</p>
-            </li>
-          </ul>
-
-          <h3>Other Licenses</h3>
-
-          <ul class="education-list">
-            <li>
-              <p>Driving License (B)</p>
-            </li>
-          </ul>
-
 
         </article>
+
+        <!-- <article id="insights" class="insights" data-page="insights">
+          <h2>Insights</h2>
+          <p>
+            Some of my insights.
+          </p>
+
+          <h3>Best practices</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+
+          <h3>Software Design & Architecture</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+
+          <h3>Scalability</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+
+          <h3>Leveraging AI Thoughtfully</h3>
+          <p>
+            Using AI as a tool for understanding new tech, not as a shortcut. I use AI tools to deepen my understanding of new frameworks and best practices.
+          </p>
+
+          <h3>Computational Costs & Efficiency</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+          
+        </article> -->
+
 
         <article id="skills" class="skills" data-page="skills">
           <h2>Skills</h2>
@@ -294,35 +303,35 @@
                 <h3>Soft skills</h3>
 
                 <li class="skill-group">
-                  <p>Self-taught</p>
+                  <h4>Self-taught</h4>
                   <div class="progress_bar">
                     <div class="progress_perc" id="sk_1"></div>
                   </div>
                 </li>
 
                 <li class="skill-group">
-                  <p>Teamwork</p>
+                  <h4>Teamwork</h4>
                   <div class="progress_bar">
                     <div class="progress_perc" id="sk_2"></div>
                   </div>
                 </li>
 
                 <li class="skill-group">
-                  <p>Proactive</p>
+                  <h4>Proactive</h4>
                   <div class="progress_bar">
                     <div class="progress_perc" id="sk_3"></div>
                   </div>
                 </li>
 
                 <li class="skill-group">
-                  <p>Organizational</p>
+                  <h4>Organizational</h4>
                   <div class="progress_bar">
                     <div class="progress_perc" id="sk_4"></div>
                   </div>
                 </li>
 
                 <li class="skill-group">
-                  <p>Resolutive</p>
+                  <h4>Resolutive</h4>
                   <div class="progress_bar">
                     <div class="progress_perc" id="sk_5"></div>
                   </div>
@@ -419,7 +428,7 @@
   
               <ul class="skill-subsection">
   
-                <h3> DevOps & Containerization </h3>
+                <h3> DevOps & Microservices </h3>
                 
                 <li class="skill-group">
                   <h4>Docker</h4>
@@ -571,17 +580,14 @@
 
               </a>
             </li>
-
+<!-- 
             <li>
-              <!-- <a href=""> -->
               <img src="assets/BookStore.png" />
               <h4>Book WebStore</h4>
               <p>
                 An online bookstore, developed using Java Servlets.
               </p>
 
-
-              <!-- </a> -->
             </li>
 
             <li>
@@ -600,14 +606,6 @@
 
               </a>
             </li>
-            <!--
-            <li>
-              <img src="https://imgs.search.brave.com/mWwTrIEm0exXRnhAsoabHioCsXgxQCdV1qaz_IJNyXI/rs:fit:864:480:1/g:ce/aHR0cHM6Ly9jb250/ZW50LnRlY2hnaWcu/Y29tL3Bob3RvLzc4/OTQ5MTEwLzktYmVz/dC1wcm9ncmFtbWlu/Zy1wcm9qZWN0LWlk/ZWFzLWZvci1iZWdp/bm5lcnMtdG8tbGV2/ZWwtdXAtdGhlaXIt/Y29kaW5nLXNraWxs/cy5qcGc_MTE5MDU4">
-              <h4>Malicious URL Scanner</h4>
-              <p>Modelo de Machine Learning que, a partir de una URL, se acceden a diferentes atributos y se comprueba su seguridad, mediante Tensorflow</p>
-
-            </li>
-            -->
 
             <li>
               <a href="https://github.com/G10on/FSI-Red-Neuronal">
@@ -666,9 +664,108 @@
                 </p>
               
               </a>
-            </li>
+            </li> -->
           </ul>
         </article>
+
+        <article id="education" class="education" data-page="education">
+          <h2>Education</h2>
+
+          <h3>Degree</h3>
+
+          <ul class="education-list">
+            <li>
+              <p>Universidad de Las Palmas de Gran Canaria (ULPGC)</p>
+              <p>2019 - 2023</p>
+
+              <ul class="list-item-description">
+                <li>- Creation of programs in languages such as Python, Java, and C</li>
+                <li>- Web development with languages HTML5, CSS, JavaScript</li>
+                <li>- Use of frameworks such as Bootstrap, Angular, and IONIC for web development</li>
+                <li>- Introduction to intelligent systems, Machine Learning, and Tensorflow</li>
+                <li>- Acquisition of essential knowledge in networking</li>
+                <li>- Administration of the Linux operating system</li>
+                <li>- Introduction to databases</li>
+                <li>- Design of various search algorithms</li>
+                <li>- Adaptation to teamwork through agile Scrum methodologies</li>
+              </ul>
+            </li>
+          </ul>
+            
+
+          <h3>Short Courses</h3>
+
+          <ul class="education-list">
+            <li>
+              <p>Website Positioning and Digital Marketing Course</p>
+              <p>Summer 2019</p>
+              <ul class="list-item-description">
+                <li>
+                  Knowledge of terminologies related to web page development
+                </li>
+                <li>
+                  Acquisition of knowledge about web programming languages (HTML, CSS)
+                </li>
+                <li>
+                  Familiarization with the field of online business marketing, as well as SEO
+                </li>
+                <li>- Adaptation to teamwork</li>
+              </ul>
+            </li>
+          </ul>
+        
+
+          <h3>Online Short Courses</h3>
+
+          <ul class="education-list">
+            <li>
+              <p>Introduction to Cyber Security</p>
+              <p>Summer 2022</p>
+              <ul class="list-item-description">
+                <li>
+                  Acquisition of basic knowledge in cybersecurity
+                </li>
+                <li>
+                  Familiarization with the most common types of cyberattacks
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>Firewall</p>
+              <p>Summer 2022</p>
+              <ul class="list-item-description">
+                <li>
+                  Acquisition of basic knowledge about firewalls
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <h3>Languages</h3>
+
+          <ul class="education-list">
+            <li>
+              <p>Spanish</p>
+            </li>
+            <li>
+              <p>English (B2)</p>
+            </li>
+            <li>
+              <p>Hindi</p>
+            </li>
+          </ul>
+
+          <h3>Other Licenses</h3>
+
+          <ul class="education-list">
+            <li>
+              <p>Driving License (B)</p>
+            </li>
+          </ul>
+
+
+        </article>
+
       </div>
     </main>
   </body>
