@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Jiten Portfolio</title>
+    <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="styles.css" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script type="module" src="script.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script
@@ -29,33 +30,36 @@
 
   <body>
     <main>
-      <div class="fixedButton">
-        <a href="index_english.html">
-          <button style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/2560px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png');">
-            <!-- <img id="lang-flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/2560px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png" alt="UK Flag">  -->
-          </button>
-        </a>
-      </div>
+
+    <!-- <div class="fixedButton">
+      <a href="index.html">
+        <button style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/2560px-Bandera_de_Espa%C3%B1a.svg.png');">
+        </button>
+      </a>
+    </div> -->
+
       <span id="nav-space"></span>
       <aside>
         <div class="img_name">
-          <img src="assets/Perfil3.JPG" />
+          <img src="assets/Profile_simple_2.jpg" />
 
           <div class="title_subtitle">
-            <h1>Jiten Rajesh Parwani</h1>
-            <h3>Computer Science Student</h3>
+            <h1>Jiten R. P.</h1>
+            <h3>Computer Science Engineer</h3>
+
+            <p class="location"> <i class="fa fa-map-marker-alt"></i> Spain</p>
 
             <div class="aside_contact">
-              <h4>Perfiles</h4>
+              <!-- <h4>Profiles</h4> -->
               <ul>
                 <li>
                   <a href="https://linkedin.com/in/jiten-">
-                    <i class="fa fa-linkedin-square"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://github.com/g10on">
-                    <i class="fa fa-github"></i>
+                    <i class="fa-brands fa-github"></i>
                   </a>
                 </li>
                 <li>
@@ -67,47 +71,48 @@
             </div>
 
             <div id="download">
-              <a href="assets/curriculum.pdf" download
-                >Descargar Curriculum PDF</a
-              >
+              <a href="">
+                <!-- Download Curriculum -->
+                 PDF resume in construction
+              </a>
             </div>
           </div>
         </div>
 
         <div class="aside_section only-big">
-          <h4>Aptitudes</h4>
+          <h4>Soft Skills</h4>
 
           <ul>
             <li>
-              <p>Autodidacta</p>
+              <p>Self-taught</p>
               <div class="progress_bar">
                 <div class="progress_perc" id="sk_1"></div>
               </div>
             </li>
 
             <li>
-              <p>Trabajo en equipo</p>
+              <p>Teamwork</p>
               <div class="progress_bar">
                 <div class="progress_perc" id="sk_2"></div>
               </div>
             </li>
 
             <li>
-              <p>Proactivo</p>
+              <p>Proactive</p>
               <div class="progress_bar">
                 <div class="progress_perc" id="sk_3"></div>
               </div>
             </li>
 
             <li>
-              <p>Organización</p>
+              <p>Organizational</p>
               <div class="progress_bar">
                 <div class="progress_perc" id="sk_4"></div>
               </div>
             </li>
 
             <li>
-              <p>Resolutivo</p>
+              <p>Resolutive</p>
               <div class="progress_bar">
                 <div class="progress_perc" id="sk_5"></div>
               </div>
@@ -120,255 +125,213 @@
         <nav>
           <ul>
             <li>
-              <button class="navbar-link active" data-nav-link>Sobre mí</button>
+              <button class="navbar-link active" data-nav-link>About me</button>
             </li>
 
             <li>
-              <button class="navbar-link" data-nav-link>Educación</button>
+              <button class="navbar-link" data-nav-link>Experience</button>
+            </li>
+            
+            <!-- <li>
+              <button class="navbar-link" data-nav-link>Insights</button>
+            </li> -->
+
+            <li>
+              <button class="navbar-link" data-nav-link>Skills</button>
             </li>
 
             <li>
-              <button class="navbar-link" data-nav-link>Habilidades</button>
+              <button class="navbar-link" data-nav-link>Projects</button>
             </li>
 
             <li>
-              <button class="navbar-link" data-nav-link>Proyectos</button>
+              <button class="navbar-link" data-nav-link>Education</button>
             </li>
           </ul>
         </nav>
 
-        <article id="about" class="about active" data-page="sobre mí">
-          <h2>Sobre mí</h2>
+        <article id="about" class="about active" data-page="about me">
+          <h2>About me</h2>
           <p>
-            Soy un Ingeniero Informática graduado en la
-            Universidad de Las Palmas de Gran Canaria (ULPGC). Mi capacidad y
-            pasión por aprender en el mundo de las tecnologías y el software me
-            han dado el interés en contribuir e innovar en soluciones de
-            cualquier magnitud.
+            Building software isn’t about memorizing syntax, mastering frameworks, or collecting languages. It’s not about ticking boxes or simply making things work.
           </p>
-
           <p>
-            Desde el instituto ya tomaba experiencia en el trabajo en equipo,
-            participando en 2 competiciones con un equipo de robótica, y
-            habiendo formado parte de un equipo de baloncesto. Por eso, ante
-            nuevos proyectos, los considero una oportunidad para conocer a gente
-            con especialidades y perspectivas diferentes, de las cuales me
-            fascina aprender nuevas cosas durante el intercambio de
-            conocimientos que se realiza entre todos los miembros del equipo.
+            I believe building software is about shaping possibility. It’s the art of designing systems where simplicity gives rise to complexity, where elegant principles allow for unexpected emergence.
           </p>
-
           <p>
-            Mi obsesión por la simplicidad y la eficiencia de las soluciones de
-            manera visual me ha permitido obtener una gran capacidad resolutiva.
-            Con mi interés por conocer los efectos y el impacto de los proyectos
-            en el mundo he adquirido la capacidad de realizar extensas
-            exploraciones de todos los temas en los que estos se involucran.
+            Like the architecture of nature itself, I believe the best solutions are not just functional. They should be beautiful, resilient, and open to growth.
           </p>
-
           <p>
-            Mi objetivo es contribuir al desarrollo de software de todo tipo e
-            innovar en soluciones que cambien el estilo de vida de todo el
-            mundo, desde soluciones para empresas en áreas muy diversas, hasta
-            la investigación y el desarrollo en la ciencia y las nuevas
-            tecnologías.
+            This is the mindset I bring to every project: seeking not just to solve problems, but to create foundations where innovation can flourish.
           </p>
 
           <div class="title_section">
-            <h3>Temas que me fascinan...</h3>
+            <h3>Motivations & Values</h3>
             <ul id="interest_list">
               <li>
-                <p class="interest-topic-title">Vida Artificial / Inteligencia Artificial</p>
+                <p class="interest-topic-title">Growth Trajectory</p>
                 <p class="interest-description">
-                  Me atrae la idea de comprender y simular comportamientos
-                  naturales e inteligentes y, como resultado, crear formas 
-                  de vida que nacen del código.
+                  Eager to take on more responsibility in system design and technical decision-making.
                 </p>
               </li>
 
               <li>
-                <p class="interest-topic-title">Ciberseguridad</p>
+                <p class="interest-topic-title">Architectural Curiosity</p>
                 <p class="interest-description">
-                  Veo la ciberseguridad como un campo en el que puedo 'jugar' y
-                  explorar a fondo un sistema o software en busca de una ruta
-                  desconocida.
+                  Passionate about software design patterns, system scalability, and maintainability.
                 </p>
               </li>
 
               <li>
-                <p class="interest-topic-title">Web y Cloud</p>
+                <p class="interest-topic-title">Era of AI</p>
                 <p class="interest-description">
-                  Considero muy interesante la idea de poder acceder 
-                  a cualquier tipo de servicios a través de webs, 
-                  aprovechando las ventajas computacionales de la 
-                  nube.
+                  I actively integrate AI into my workflow to enhance learning, explore new technologies, and inform my technical decisions, rather than relying on it for rote answers.
                 </p>
               </li>
 
               <li>
-                <p class="interest-topic-title">Blockchain</p>
+                <p class="interest-topic-title">Big-Picture Vision</p>
                 <p class="interest-description">
-                  Me interesan las tecnologías como el blockchain,
-                  que darían paso a un ecosistema virtual más privado, y
-                  soportado por una plataforma descentralizada.
+                  Not just "how it works?", but also "why it matters in the broader system?". Focusing on how systems scale, evolve, and integrate over time.
                 </p>
               </li>
             </ul>
           </div>
         </article>
 
-        <article id="education" class="education" data-page="educación">
-          <h2>Educación</h2>
+        <article id="experience" class="experience" data-page="experience">
+          <h2>Experience</h2>
 
-          <h3>Grado</h3>
-
-          <ul class="education-list">
-            <li>
-              <p>Universidad de Las Palmas de Gran Canaria (ULPGC)</p>
-              <p>2019 - 2023</p>
-
-              <ul class="list-item-description">
-                <li>
-                  - Creación de programas en lenguajes como Python, Java y C
-                </li>
-                <li>- Desarrollo Web con lenguajes HTML5, CSS, JavaScript</li>
-                <li>
-                  - Uso de frameworks como Bootstrap, Angular e IONIC para el
-                  desarrollo web
-                </li>
-                <li>
-                  - Introducción a los sistemas inteligentes, Machine Learning y
-                  Tensorflow
-                </li>
-                <li>- Adquisición de conocimientos esenciales en redes</li>
-                <li>- Administración del S.O. Linux</li>
-                <li>- Familiarización e introducción a las Bases de Datos</li>
-                <li>- Diseño de distintos algoritmos de búsqueda</li>
-                <li>
-                  - Adaptación al trabajo en equipo mediante metodologías ágiles
-                  Scrum
-                </li>
-              </ul>
-            </li>
-          </ul>
-
-          <h3>Cursos</h3>
+          <h3>Indra Group</h3>
 
           <ul class="education-list">
             <li>
-              <p>
-                Curso de Posicionamiento Web y Marketing Digital en buscadores
-              </p>
-              <p>Summer 2019</p>
+              <p class="job-title">Air Traffic Management Software Developer (Recording System Team)</p>
+              <p class="job-dates">2024/02 - present</p>
 
               <ul class="list-item-description">
                 <li>
-                  - Conocimiento de terminologías enfocadas al ámbito de páginas
-                  web
+                  Developer in the Recording System Team of the Air Traffic Management branch in the company
                 </li>
                 <li>
-                  - Adquisición de conocimientos sobre lenguajes de programación
-                  web (HTML, CSS)
+                  Collaborating closely with the team to integrate new features and ensure seamless operation within a <b>microservices</b>
+                  architecture, using Java Spring, Docker, Kubernetes, Helm and OpenShift for scalable deployment.
                 </li>
                 <li>
-                  - Familiarización con el campo del marketing de negocios
-                  online, así como del SEO
-                </li>
-                <li>- Adaptación a entornos de trabajo en equipo</li>
-              </ul>
-            </li>
-          </ul>
-
-          <h3>Cursos Cortos Online</h3>
-
-          <ul class="education-list">
-            <li>
-              <p>Introduction to Cyber Security</p>
-              <p>Summer 2022</p>
-
-              <ul class="list-item-description">
-                <li>
-                  - Adquisición de conocimientos básicos de la ciberseguridad
+                  Extensively developed <b>Java</b> Spring microservice applications in Linux environments, ensuring robust backend services aligned with industry standards.
                 </li>
                 <li>
-                  - Familiarización con tipos de ciberataques más frecuentes
+                  Created and maintained automation bash <b>scripts</b> that streamlined development processes, reducing setup and debugging times across the team.
+                </li>
+                <li>
+                  Optimized file searching processes, reducing search times and improving system responsiveness in large-scale data environments.
+                </li>
+                <li>
+                  Proactively leveraged AI tools to enhance technical knowledge and decision-making, using them to quickly assimilate the latest documentation, best practices, and architectural suggestions. Focused on extracting actionable insights and avoid generic or unreliable outputs, integrating AI-driven research into day-to-day problem-solving and continuous learning.
+                </li>
+                <li>
+                  Refactored legacy codebases to enhance maintainability, applying best practices in modularization and clean code, which reduced technical debt and simplified future feature development.
+                </li>
+                <li>
+                  Consistently improved understanding and application of maintainable and scalable software design principles, contributing to a culture of quality and continuous improvement within the engineering team.
                 </li>
               </ul>
             </li>
 
             <li>
-              <p>Firewall</p>
-              <p>Summer 2022</p>
+              <p class="job-title">Java Programmer - Internship</p>
+              <p class="job-dates">09/2022 - 12/2022</p>
 
               <ul class="list-item-description">
                 <li>
-                  - Adquisición de conocimientos básicos sobre cortafuegos
+                  Support in a team project for a web-based document manager.
+                </li>
+                <li>
+                  Developed code in Java with Spring Framework and MySQL database.
+                </li>
+                <li>
+                  Performed assigned tasks following agile methodologies.
                 </li>
               </ul>
-            </li>
-          </ul>
-
-          <h3>Idiomas</h3>
-
-          <ul class="education-list">
-            <li>
-              <p>Español</p>
-            </li>
-            <li>
-              <p>Inglés (B2)</p>
-            </li>
-            <li>
-              <p>Hindi</p>
-            </li>
-          </ul>
-
-          <h3>Otras licencias</h3>
-
-          <ul class="education-list">
-            <li>
-              <p>Permiso de conducir (B)</p>
             </li>
           </ul>
 
         </article>
 
-        <article id="skills" class="skills" data-page="habilidades">
-          <h2>Skills / Habilidades</h2>
+        <!-- <article id="insights" class="insights" data-page="insights">
+          <h2>Insights</h2>
+          <p>
+            Some of my insights.
+          </p>
+
+          <h3>Best practices</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+
+          <h3>Software Design & Architecture</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+
+          <h3>Scalability</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+
+          <h3>Leveraging AI Thoughtfully</h3>
+          <p>
+            Using AI as a tool for understanding new tech, not as a shortcut. I use AI tools to deepen my understanding of new frameworks and best practices.
+          </p>
+
+          <h3>Computational Costs & Efficiency</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+          
+        </article> -->
+
+
+        <article id="skills" class="skills" data-page="skills">
+          <h2>Skills</h2>
 
           <div class="aside_section">
             <div class="aside_section only-small">
-              <h3>Aptitudes</h3>
+              
+              <ul class="skill-subsection">
 
-              <ul>
-                <li>
-                  <p>Autodidacta</p>
+                <h3>Soft skills</h3>
+
+                <li class="skill-group">
+                  <h4>Self-taught</h4>
                   <div class="progress_bar">
                     <div class="progress_perc" id="sk_1"></div>
                   </div>
                 </li>
 
-                <li>
-                  <p>Trabajo en equipo</p>
+                <li class="skill-group">
+                  <h4>Teamwork</h4>
                   <div class="progress_bar">
                     <div class="progress_perc" id="sk_2"></div>
                   </div>
                 </li>
 
-                <li>
-                  <p>Proactivo</p>
+                <li class="skill-group">
+                  <h4>Proactive</h4>
                   <div class="progress_bar">
                     <div class="progress_perc" id="sk_3"></div>
                   </div>
                 </li>
 
-                <li>
-                  <p>Organización</p>
+                <li class="skill-group">
+                  <h4>Organizational</h4>
                   <div class="progress_bar">
                     <div class="progress_perc" id="sk_4"></div>
                   </div>
                 </li>
 
-                <li>
-                  <p>Resolutivo</p>
+                <li class="skill-group">
+                  <h4>Resolutive</h4>
                   <div class="progress_bar">
                     <div class="progress_perc" id="sk_5"></div>
                   </div>
@@ -376,90 +339,187 @@
               </ul>
             </div>
 
-            <h3>Desarrollo Software</h3>
+            <div class="skill-subsection-list">
+              <ul class="skill-subsection">
+  
+                <h3> Programming Languages </h3>
+  
+                <li class="skill-group">
+                  <h4>Java</h4>
+                  <p> Used Java in projects in Indra Group, with themes related to Recordings. Supported by Spring Boot, I have designed and developed microservice apps, with designs for scalability capacity, and applying best practices.  </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_7"></div>
+                  </div>
+                </li>
+  
+                <li class="skill-group">
+                  <h4>Python</h4>
+                  <p> Built Python apps as part of personal learning and experimentation, as well as in University projects. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_6"></div>
+                  </div>
+                </li>
 
-            <ul>
-              <li>
-                <p>Python</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_6"></div>
-                </div>
-              </li>
+                <li class="skill-group">
+                  <h4>SQL</h4>
+                  <p> Gained some practical experience with MySQL during internship in Inerza. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_8"></div>
+                  </div>
+                </li>
+  
+                <li class="skill-group">
+                  <h4>C language</h4>
+                  <p> Experimented with C programming language in University projects. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_10"></div>
+                  </div>
+                </li>
+  
+              </ul>
 
-              <li>
-                <p>Java</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_7"></div>
-                </div>
-              </li>
+              <ul class="skill-subsection">
+                
+                <h3> Operating Systems </h3>
+                
+                <li class="skill-group">
+                  <h4> Linux </h4>
+                  <p> Extensive experience with Linux environments, having conducted all professional development within Linux-based systems. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_9"></div>
+                  </div>
+                </li>
+              </ul>
+                
+              <ul class="skill-subsection">
+                
+                <h3>Web Development</h3>
+  
+                <li class="skill-group">
+                  <h4> HTML / CSS / JS </h4>
+                  <p> Developed frontend web pages (like this web portfolio) for experimental personal backend projects. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_12"></div>
+                  </div>
+                </li>
+  
+                <li class="skill-group">
+                  <h4> NodeJS </h4>
+                  <p> Used NodeJS as backend in experimental personal projects. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_12"></div>
+                  </div>
+                </li>
+              </ul>
+              
+              <ul class="skill-subsection">
 
-              <li>
-                <p>SQL</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_8"></div>
-                </div>
-              </li>
+                <h3> Version Control </h3>
+  
+                <li class="skill-group">
+                  <h4> Git </h4>
+                  <p> Have used Git to manage version control since University and professional experience. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_git"></div>
+                  </div>
+                </li>
 
-              <li>
-                <p>Linux</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_9"></div>
-                </div>
-              </li>
+              </ul>
+  
+              <ul class="skill-subsection">
+  
+                <h3> DevOps & Microservices </h3>
+                
+                <li class="skill-group">
+                  <h4>Docker</h4>
+                  <p> Built single and multi-stage images, focused on building them efficiently by investigating and applying best practices for size optimization.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_docker"></div>
+                  </div>
+                </li>
+  
+                <li class="skill-group">
+                  <h4>Kubernetes</h4>
+                  <p> Gained experience and regularly used Kubernetes from hands-on practice in the projects in Indra Group. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_k8s"></div>
+                  </div>
+                </li>
+  
+                <li class="skill-group">
+                  <h4>Helm Charts</h4>
+                  <p> Installed Kubernetes deployment through Helm Charts in projects of Indra Group. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_helm"></div>
+                  </div>
+                </li>
+  
+                <li class="skill-group">
+                  <h4>OpenShift</h4>
+                  <p> Supported the Kubernetes Clusers and Helm Chart deployments with OpenShift tool. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_openshift"></div>
+                  </div>
+                </li>
 
-              <li>
-                <p>C</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_10"></div>
-                </div>
-              </li>
-            </ul>
+              </ul>
+              
+              <ul class="skill-subsection">
 
-            <h3>Desarrollo Web</h3>
+                <h3> Data & Messaging </h3>
+  
+                <li class="skill-group">
+                  <h4>Apache Kafka</h4>
+                  <p> Developed Java microservices in Indra Group that interact with Kafka queues. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_kafka"></div>
+                  </div>
+                </li>
+  
+                <li class="skill-group">
+                  <h4> AKHQ </h4>
+                  <p> Experimented with Kafka Queues through AKHQ web tool. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_akhq"></div>
+                  </div>
+                </li>
 
-            <ul>
-              <li>
-                <p>HTML</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_12"></div>
-                </div>
-              </li>
+              </ul>
 
-              <li>
-                <p>CSS</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_13"></div>
-                </div>
-              </li>
+              <ul class="skill-subsection">
+                
+                <h3> Frameworks & Libraries </h3>
+                
+                <li class="skill-group">
+                  <h4> Electron (Python/JS Framework) </h4>
+                  <p> Used Electron framework in my Final Project in University to connect the Python backend to the JS frontend of my app. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_electron"></div>
+                  </div>
+                </li>
+              </ul>
 
-              <li>
-                <p>JavaScript</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_14"></div>
-                </div>
-              </li>
-
-              <li>
-                <p>Angular Framework</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_15"></div>
-                </div>
-              </li>
-
-              <li>
-                <p>Wordpress</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_16"></div>
-                </div>
-              </li>
-            </ul>
+              <ul class="skill-subsection">
+                
+                <h3> Other Tools & Technologies </h3>
+                
+                <li class="skill-group">
+                  <h4> Ollama </h4>
+                  <p> Experimented with open source LLMs through Ollama and its API, and developed a simple Web Chatbot with Python and Node. </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_ollama"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
           </div>
         </article>
 
-        <article id="portfolio" class="portfolio" data-page="proyectos">
-          <h2>Proyectos Personales</h2>
+        <article id="portfolio" class="portfolio" data-page="projects">
+          <h2>Personal Projects</h2>
 
-          <p>Algunos de los proyectos realizados durante la carrera.</p>
+          <p>Some of the projects carried out during the course.</p>
 
           <div id="main-project">
             <a
@@ -472,21 +532,18 @@
                 />
                 Your browser does not support the video tag.
               </video>
-              <h4>Simulador Autómata Celular (Trabajo de Fin De Grado)</h4>
+              <h4>Simulator Cellular Automata (Graduation Project)</h4>
               <p>
-                Simulador de la reciente familia de autómatas celulares llamada
-                Lenia (Bert Chan, 2018), que tiene un gran potencial en el campo
-                de la Vida Artificial. Esta herramienta permite experimentar con
-                distintos parámetros que definen a estos autómatas, así como
-                evaluar distintas métricas de la simulación.
+                Simulator of the recent family of cellular automata called Lenia (Bert Chan, 2018), which has great potential in the field of Artificial Life. This tool allows experimentation with different parameters that define these automata, as well as evaluation of different simulation metrics.
               </p>
               <p>
                 <ul>
-                  Desarrollado con:
-                  <br> - Procesamiento / backend: <b>Python</b> (Numpy, Scipy, JAX, Eel...)
-                  <br> - Interfaz / frontend: tecnologías web clásicas <b>(HTML, CSS, JS)</b>
+                  Developed with:
+                  <br> - Processing / backend: <b>Python</b> (Numpy, Scipy, JAX, Eel...)
+                  <br> - Interface / frontend: traditional web technologies <b>(HTML, CSS, JS)</b>
                 </ul>
               </p>
+
             </a>
           </div>
 
@@ -494,79 +551,71 @@
             <li>
               <a href="https://github.com/G10on/Prototype-ComparApp.git">
                 <img src="assets/ComparApp.png" />
-                <h4>ComparApp (En equipo)</h4>
+                <h4>ComparApp (In Team)</h4>
                 <p>
-                  Aplicación de Supermercado, desarrollada con Kotlin y FireBase, 
-                  implementada en equipo. 
-                  Desarrolladores: <b> 
+                  Supermarket Application, developed with Kotlin and FireBase, 
+                  implemented as a team.
+                  Developers: <b> 
                   <a href="https://github.com/melbaperez"> @melbaperez, </a>   
                   <a href="https://github.com/AiramLemes"> @AiramLemes, </a>   
                   <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> 
-                  <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
+                  <a href="https://github.com/g10on"> and @G10on (me) </a> </b>
                 </p>
+
 
               </a>
             </li>
             <li>
               <a href="https://github.com/G10on/netbond/blob/main/docs/MEMORIA%20-%20NETBOND.pdf">
                 <img src="assets/NetBond.png" />
-                <h4>NetBond (En equipo)</h4>
+                <h4>NetBond (In Team)</h4>
                 <p>
-                  Aplicación de Red Social, desarrollada con Kotlin y FireBase, 
-                  implementada en equipo. 
-                  Desarrolladores: <b> 
+                  Social Media Application, developed with Kotlin and FireBase, 
+                  implemented in team.
+                  Developers: <b> 
                   <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> 
-                  <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
+                  <a href="https://github.com/g10on"> and @G10on (me) </a> </b>
                 </p>
+
 
               </a>
             </li>
-
+<!-- 
             <li>
-              <!-- <a href=""> -->
               <img src="assets/BookStore.png" />
               <h4>Book WebStore</h4>
               <p>
-                Una tienda de libros online, mediante los Servlets del lenguaje
-                Java.
+                An online bookstore, developed using Java Servlets.
               </p>
 
-              <!-- </a> -->
             </li>
 
             <li>
               <a href="https://github.com/bank-apps/app">
                 <img src="assets/BankApp.png" />
-                <h4>BankApp (En equipo)</h4>
+                <h4>BankApp (In Team)</h4>
                 <p>
-                  Web Bancaria Sencilla, desarrollada con Java y SQLite,
-                  mediante Servlets.
-                  Desarrolladores: <b> <a href="https://github.com/nahimaort"> @nahimaort, </a> 
+                  Simple Banking Web Application, developed with Java and SQLite,
+                  using Servlets.
+                  Developers: <b> <a href="https://github.com/nahimaort"> @nahimaort, </a> 
                     <a href="https://github.com/SamuelRodri"> @SamuelRodri, </a>  
                     <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a>  
                     <a href="https://github.com/sebastianfernandezgarcia"> @sebastianfernandezgarcia, </a>  
-                    <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
+                    <a href="https://github.com/g10on"> and @G10on (me) </a> </b>
                 </p>
+
               </a>
             </li>
-            <!--
-            <li>
-              <img src="https://imgs.search.brave.com/mWwTrIEm0exXRnhAsoabHioCsXgxQCdV1qaz_IJNyXI/rs:fit:864:480:1/g:ce/aHR0cHM6Ly9jb250/ZW50LnRlY2hnaWcu/Y29tL3Bob3RvLzc4/OTQ5MTEwLzktYmVz/dC1wcm9ncmFtbWlu/Zy1wcm9qZWN0LWlk/ZWFzLWZvci1iZWdp/bm5lcnMtdG8tbGV2/ZWwtdXAtdGhlaXIt/Y29kaW5nLXNraWxs/cy5qcGc_MTE5MDU4">
-              <h4>Malicious URL Scanner</h4>
-              <p>Modelo de Machine Learning que, a partir de una URL, se acceden a diferentes atributos y se comprueba su seguridad, mediante Tensorflow</p>
-
-            </li>
-            -->
 
             <li>
               <a href="https://github.com/G10on/FSI-Red-Neuronal">
                 <img src="assets/ImgClassify.png" />
-                <h4>Satellite Image Classification (En equipo)</h4>
+                <h4>Satellite Image Classification (In Team)</h4>
                 <p>
-                  Modelo de Machine Learning que clasifica varias clases de
-                  imágenes, mediante Tensorflow.
-                  Desarrolladores: <b> <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
+                  Machine Learning Model for classifying various types of images, developed using Tensorflow.
+                  Developers: <b> <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> <a href="https://github.com/g10on"> and @G10on (me) </a> </b>
                 </p>
+
               </a>
             </li>
 
@@ -575,12 +624,12 @@
                 href="https://github.com/nahimaort/CanaryAdventure/tree/sprint4"
               >
                 <img src="assets/CanAdv.png" />
-                <h4>Tourism Web/App (En equipo)</h4>
+                <h4>Tourism Web/App (In Team)</h4>
                 <p>
-                  Web/Aplicación que sirve como guía turística de Canarias,
-                  desarrollada mediante Angular e IONIC. 
-                  Desarrolladores: <b> <a href="https://github.com/nahimaort"> @nahimaort, </a> <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
+                  Simple Tourism Web/App for Canary Islands, developed using Angular and Ionic.
+                  Developers: <b> <a href="https://github.com/nahimaort"> @nahimaort, </a> <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> <a href="https://github.com/g10on"> and @G10on (me) </a> </b>
                 </p>
+
               </a>
             </li>
 
@@ -589,8 +638,9 @@
                 <img src="assets/ImageViewer.png" />
                 <h4>Image Viewer</h4>
                 <p>
-                  Programa sencillo de visualización de imágenes, mediante Java
+                  A simple image viewer application, developed using Java.
                 </p>
+
               </a>
             </li>
 
@@ -599,9 +649,9 @@
                 <img src="assets/BlackJack.jpg" />
                 <h4>CLI Black Jack</h4>
                 <p>
-                  Clásico juego de Black Jack sobre línea de comandos,
-                  desarrollado con Java mediante Test Driven Data (TDD)
+                  Classic Blackjack game over the command line, developed with Java using Test Driven Data (TDD).
                 </p>
+              
               </a>
             </li>
 
@@ -610,13 +660,112 @@
                 <img src="assets/CurrencyConversor.png" />
                 <h4>Currency Conversor</h4>
                 <p>
-                  Programa sencillo de conversor de divisas, desarrollado
-                  mediante Java
+                  Simple Currency Converter Program, developed using Java.
                 </p>
+              
               </a>
-            </li>
+            </li> -->
           </ul>
         </article>
+
+        <article id="education" class="education" data-page="education">
+          <h2>Education</h2>
+
+          <h3>Degree</h3>
+
+          <ul class="education-list">
+            <li>
+              <p>Universidad de Las Palmas de Gran Canaria (ULPGC)</p>
+              <p>2019 - 2023</p>
+
+              <ul class="list-item-description">
+                <li>- Creation of programs in languages such as Python, Java, and C</li>
+                <li>- Web development with languages HTML5, CSS, JavaScript</li>
+                <li>- Use of frameworks such as Bootstrap, Angular, and IONIC for web development</li>
+                <li>- Introduction to intelligent systems, Machine Learning, and Tensorflow</li>
+                <li>- Acquisition of essential knowledge in networking</li>
+                <li>- Administration of the Linux operating system</li>
+                <li>- Introduction to databases</li>
+                <li>- Design of various search algorithms</li>
+                <li>- Adaptation to teamwork through agile Scrum methodologies</li>
+              </ul>
+            </li>
+          </ul>
+            
+
+          <h3>Short Courses</h3>
+
+          <ul class="education-list">
+            <li>
+              <p>Website Positioning and Digital Marketing Course</p>
+              <p>Summer 2019</p>
+              <ul class="list-item-description">
+                <li>
+                  Knowledge of terminologies related to web page development
+                </li>
+                <li>
+                  Acquisition of knowledge about web programming languages (HTML, CSS)
+                </li>
+                <li>
+                  Familiarization with the field of online business marketing, as well as SEO
+                </li>
+                <li>- Adaptation to teamwork</li>
+              </ul>
+            </li>
+          </ul>
+        
+
+          <h3>Online Short Courses</h3>
+
+          <ul class="education-list">
+            <li>
+              <p>Introduction to Cyber Security</p>
+              <p>Summer 2022</p>
+              <ul class="list-item-description">
+                <li>
+                  Acquisition of basic knowledge in cybersecurity
+                </li>
+                <li>
+                  Familiarization with the most common types of cyberattacks
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>Firewall</p>
+              <p>Summer 2022</p>
+              <ul class="list-item-description">
+                <li>
+                  Acquisition of basic knowledge about firewalls
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <h3>Languages</h3>
+
+          <ul class="education-list">
+            <li>
+              <p>Spanish</p>
+            </li>
+            <li>
+              <p>English (B2)</p>
+            </li>
+            <li>
+              <p>Hindi</p>
+            </li>
+          </ul>
+
+          <h3>Other Licenses</h3>
+
+          <ul class="education-list">
+            <li>
+              <p>Driving License (B)</p>
+            </li>
+          </ul>
+
+
+        </article>
+
       </div>
     </main>
   </body>
