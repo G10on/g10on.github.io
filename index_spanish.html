@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Jiten Portfolio</title>
+    <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="styles.css" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script type="module" src="script.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script
@@ -29,33 +30,36 @@
 
   <body>
     <main>
-      <div class="fixedButton">
-        <a href="index_english.html">
-          <button style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/2560px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png');">
-            <!-- <img id="lang-flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/2560px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png" alt="UK Flag">  -->
-          </button>
-        </a>
-      </div>
+
+    <div class="fixedButton">
+      <a href="index.html">
+        <button style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/2560px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png');">
+        </button>
+      </a>
+    </div>
+
       <span id="nav-space"></span>
       <aside>
         <div class="img_name">
-          <img src="assets/Perfil3.JPG" />
+          <img src="assets/Profile_simple_2.jpg" />
 
           <div class="title_subtitle">
-            <h1>Jiten Rajesh Parwani</h1>
-            <h3>Computer Science Student</h3>
+            <h1>Jiten R. P.</h1>
+            <h3>Ingeniero Informático</h3>
+
+            <p class="location"> <i class="fa fa-map-marker-alt"></i> España</p>
 
             <div class="aside_contact">
-              <h4>Perfiles</h4>
+              <!-- <h4>Profiles</h4> -->
               <ul>
                 <li>
                   <a href="https://linkedin.com/in/jiten-">
-                    <i class="fa fa-linkedin-square"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://github.com/g10on">
-                    <i class="fa fa-github"></i>
+                    <i class="fa-brands fa-github"></i>
                   </a>
                 </li>
                 <li>
@@ -67,15 +71,16 @@
             </div>
 
             <div id="download">
-              <a href="assets/curriculum.pdf" download
-                >Descargar Curriculum PDF</a
-              >
+              <a href="">
+                <!-- Download Curriculum -->
+                 CV en formato PDF en construcción
+              </a>
             </div>
           </div>
         </div>
 
         <div class="aside_section only-big">
-          <h4>Aptitudes</h4>
+          <h4>Soft Skills</h4>
 
           <ul>
             <li>
@@ -124,8 +129,12 @@
             </li>
 
             <li>
-              <button class="navbar-link" data-nav-link>Educación</button>
+              <button class="navbar-link" data-nav-link>Experiencia</button>
             </li>
+            
+            <!-- <li>
+              <button class="navbar-link" data-nav-link>Insights</button>
+            </li> -->
 
             <li>
               <button class="navbar-link" data-nav-link>Habilidades</button>
@@ -134,86 +143,464 @@
             <li>
               <button class="navbar-link" data-nav-link>Proyectos</button>
             </li>
+
+            <li>
+              <button class="navbar-link" data-nav-link>Educación</button>
+            </li>
           </ul>
         </nav>
 
         <article id="about" class="about active" data-page="sobre mí">
           <h2>Sobre mí</h2>
           <p>
-            Soy un Ingeniero Informática graduado en la
-            Universidad de Las Palmas de Gran Canaria (ULPGC). Mi capacidad y
-            pasión por aprender en el mundo de las tecnologías y el software me
-            han dado el interés en contribuir e innovar en soluciones de
-            cualquier magnitud.
+            Construir software no se trata de memorizar sintaxis, dominar frameworks o acumular lenguajes. No se trata de marcar casillas o simplemente hacer que las cosas funcionen.
           </p>
-
           <p>
-            Desde el instituto ya tomaba experiencia en el trabajo en equipo,
-            participando en 2 competiciones con un equipo de robótica, y
-            habiendo formado parte de un equipo de baloncesto. Por eso, ante
-            nuevos proyectos, los considero una oportunidad para conocer a gente
-            con especialidades y perspectivas diferentes, de las cuales me
-            fascina aprender nuevas cosas durante el intercambio de
-            conocimientos que se realiza entre todos los miembros del equipo.
+            Creo que construir software es dar forma a las posibilidades. Es el arte de diseñar sistemas donde la simplicidad da lugar a la complejidad, donde los principios elegantes permiten la aparición de lo inesperado.
           </p>
-
           <p>
-            Mi obsesión por la simplicidad y la eficiencia de las soluciones de
-            manera visual me ha permitido obtener una gran capacidad resolutiva.
-            Con mi interés por conocer los efectos y el impacto de los proyectos
-            en el mundo he adquirido la capacidad de realizar extensas
-            exploraciones de todos los temas en los que estos se involucran.
+            Como la propia arquitectura de la naturaleza, creo que las mejores soluciones no solo deben ser funcionales. Deben ser bellas, resilientes y abiertas al crecimiento.
+            
           </p>
-
           <p>
-            Mi objetivo es contribuir al desarrollo de software de todo tipo e
-            innovar en soluciones que cambien el estilo de vida de todo el
-            mundo, desde soluciones para empresas en áreas muy diversas, hasta
-            la investigación y el desarrollo en la ciencia y las nuevas
-            tecnologías.
+            Esta es la mentalidad que llevo a cada proyecto: buscar no solo resolver problemas, sino crear bases donde la innovación pueda florecer.
           </p>
 
           <div class="title_section">
-            <h3>Temas que me fascinan...</h3>
+            <h3>Motivaciones y valores</h3>
             <ul id="interest_list">
               <li>
-                <p class="interest-topic-title">Vida Artificial / Inteligencia Artificial</p>
+                <p class="interest-topic-title">Trayectoria de crecimiento</p>
                 <p class="interest-description">
-                  Me atrae la idea de comprender y simular comportamientos
-                  naturales e inteligentes y, como resultado, crear formas 
-                  de vida que nacen del código.
+                  Con ganas de asumir más responsabilidades en el diseño de sistemas y la toma de decisiones técnicas.
                 </p>
               </li>
 
               <li>
-                <p class="interest-topic-title">Ciberseguridad</p>
+                <p class="interest-topic-title">Curiosidad arquitectónica</p>
                 <p class="interest-description">
-                  Veo la ciberseguridad como un campo en el que puedo 'jugar' y
-                  explorar a fondo un sistema o software en busca de una ruta
-                  desconocida.
+                  Apasionado por los patrones de diseño de software, la escalabilidad de sistemas y la mantenibilidad.
                 </p>
               </li>
 
               <li>
-                <p class="interest-topic-title">Web y Cloud</p>
+                <p class="interest-topic-title">Era de la IA</p>
                 <p class="interest-description">
-                  Considero muy interesante la idea de poder acceder 
-                  a cualquier tipo de servicios a través de webs, 
-                  aprovechando las ventajas computacionales de la 
-                  nube.
+                  Integro activamente la inteligencia artificial en mi flujo de trabajo para potenciar el aprendizaje, explorar nuevas tecnologías e informar mis decisiones técnicas, en lugar de depender de ella para respuestas mecánicas.
                 </p>
               </li>
 
               <li>
-                <p class="interest-topic-title">Blockchain</p>
+                <p class="interest-topic-title">Visión a gran escala</p>
                 <p class="interest-description">
-                  Me interesan las tecnologías como el blockchain,
-                  que darían paso a un ecosistema virtual más privado, y
-                  soportado por una plataforma descentralizada.
+                  No solo se trata de “¿cómo funciona?”, sino también de “¿por qué es importante en el sistema en su conjunto?”. Me enfoco en mejorar desde abajo  hasta arriba.
                 </p>
               </li>
             </ul>
           </div>
+        </article>
+
+        <article id="experience" class="experience" data-page="experiencia">
+          <h2>Experiencia</h2>
+
+          <h3>Indra Group</h3>
+
+          <ul class="education-list">
+            <li>
+              <p class="job-title">Desarrollador Software en Gestión del Tráfico Aéreo (Equipo de Recording System)</p>
+              <p class="job-dates">2024/02 - presente</p>
+
+              <ul class="list-item-description">
+                <li>
+                  Developer in the Recording System Team of the Air Traffic Management branch in the company
+                </li>
+                <li>
+                  Collaborating closely with the team to integrate new features and ensure seamless operation within a <b>microservices</b>
+                  architecture, using Java Spring, Docker, Kubernetes, Helm and OpenShift for scalable deployment.
+                </li>
+                <li>
+                  Extensively developed <b>Java</b> Spring microservice applications in Linux environments, ensuring robust backend services aligned with industry standards.
+                </li>
+                <li>
+                  Created and maintained automation bash <b>scripts</b> that streamlined development processes, reducing setup and debugging times across the team.
+                </li>
+                <li>
+                  Optimized file searching processes, reducing search times in large-scale data environments.
+                </li>
+                <li>
+                  Proactively leveraged AI tools to enhance technical knowledge and decision-making, using them to quickly assimilate the latest documentation, best practices, and architectural suggestions. Focused on extracting actionable insights and avoid generic or unreliable outputs, integrating AI-driven research into day-to-day problem-solving and continuous learning.
+                </li>
+                <li>
+                  Refactored legacy codebases to enhance maintainability, applying best practices in modularization and clean code, which reduced technical debt and simplified future feature development.
+                </li>
+                <li>
+                  Consistently improved understanding and application of maintainable and scalable software design principles, contributing to a culture of quality and continuous improvement within the engineering team.
+                </li>
+              </ul>
+
+              <ul class="list-item-description">
+                <li>
+                  Desarrollador en el equipo de Recording System (Sistemas de Grabación) de la rama de Gestión del Tráfico Aéreo en la empresa.
+                </li>
+                <li>
+                  Colaborando estrechamente con el equipo para integrar nuevas funcionalidades y garantizar una operación fluida dentro de una arquitectura de <b>microservicios</b>, utilizando Java Spring, Docker, Kubernetes, Helm y OpenShift para un despliegue escalable.
+                </li>
+                <li>
+                  Desarrollo extensivo de aplicaciones de microservicios <b>Java</b> Spring en entornos Linux, asegurando servicios backend robustos y alineados con los estándares de la industria.
+                </li>
+                <li>
+                  Creación y mantenimiento de <b>scripts</b> de automatización en bash que optimizaron los procesos de desarrollo, reduciendo los tiempos de configuración y depuración en todo el equipo.
+                </li>
+                <li>
+                  Optimización de los procesos de búsqueda de archivos, reduciendo los tiempos de búsqueda en entornos de datos a gran escala.
+                </li>
+                <li>
+                  Aprovechamiento proactivo de herramientas de IA para mejorar el conocimiento técnico y la toma de decisiones, utilizándolas para asimilar rápidamente la documentación más reciente, las mejores prácticas y sugerencias arquitectónicas. Enfocado en extraer ideas accionables y evitar resultados genéricos o poco fiables, integrando la investigación impulsada por IA en la resolución diaria de problemas y el aprendizaje continuo.
+                </li>
+                <li>
+                  Refactorización de bases de código heredadas para mejorar la mantenibilidad, aplicando buenas prácticas de modularización y código limpio, lo que redujo la deuda técnica y simplificó el desarrollo de futuras funcionalidades.
+                </li>
+                <li>
+                  Mejora constante de la comprensión y aplicación de principios de diseño de software mantenible y escalable, contribuyendo a una cultura de calidad y mejora continua dentro del equipo de ingeniería.
+                </li>
+              </ul>
+
+
+            </li>
+
+            <li>
+              <p class="job-title">Programador Java - Prácticas Externas</p>
+              <p class="job-dates">09/2022 - 12/2022</p>
+
+              <ul class="list-item-description">
+                <li>
+                  Apoyo en un proyecto en equipo para un gestor de documentos basado en la web.
+                </li>
+                <li>
+                  Desarrollo de código en Java con Spring Framework y base de datos MySQL.
+                </li>
+                <li>
+                  Realización de tareas asignadas siguiendo metodologías ágiles.
+                </li>
+              </ul>
+
+            </li>
+          </ul>
+
+        </article>
+
+        <!-- <article id="insights" class="insights" data-page="insights">
+          <h2>Insights</h2>
+          <p>
+            Some of my insights.
+          </p>
+
+          <h3>Best practices</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+
+          <h3>Software Design & Architecture</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+
+          <h3>Scalability</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+
+          <h3>Leveraging AI Thoughtfully</h3>
+          <p>
+            Using AI as a tool for understanding new tech, not as a shortcut. I use AI tools to deepen my understanding of new frameworks and best practices.
+          </p>
+
+          <h3>Computational Costs & Efficiency</h3>
+          <p>
+            More and more I realize the importance of following the best practices, even when it requires some more time or effort, and looks counterproductive. I have experienced how the lack of a discipline for following them lead to technical debt that is almost always going to come back.
+          </p>
+          
+        </article> -->
+
+
+        <article id="skills" class="skills" data-page="habilidades">
+          <h2>Skills / Habilidades</h2>
+
+          <div class="aside_section">
+            <div class="aside_section only-small">
+              
+              <ul class="skill-subsection">
+
+                <h3>Aptitudes</h3>
+
+                <li class="skill-group">
+                  <h4>Autodidacta</h4>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_1"></div>
+                  </div>
+                </li>
+
+                <li class="skill-group">
+                  <h4>Trabajo en equipo</h4>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_2"></div>
+                  </div>
+                </li>
+
+                <li class="skill-group">
+                  <h4>Proactivo</h4>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_3"></div>
+                  </div>
+                </li>
+
+                <li class="skill-group">
+                  <h4>Organización</h4>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_4"></div>
+                  </div>
+                </li>
+
+                <li class="skill-group">
+                  <h4>Resolutivo</h4>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_5"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="skill-subsection-list">
+              <ul class="skill-subsection">
+
+                <h3>Desarrollo de Software</h3>
+
+                <li class="skill-group">
+                  <h4>Java</h4>
+                  <p>
+                    Utilicé Java en proyectos del Grupo Indra, con temáticas relacionadas con grabaciones. Con el soporte de Spring Boot, he diseñado y desarrollado aplicaciones de microservicios, con diseños orientados a la escalabilidad y aplicando las mejores prácticas.
+                  </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_7"></div>
+                  </div>
+                </li>
+
+                <li class="skill-group">
+                  <h4>Python</h4>
+                  <p>
+                    He desarrollado aplicaciones en Python como parte de mi aprendizaje personal y experimentación, así como en proyectos universitarios.
+                  </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_6"></div>
+                  </div>
+                </li>
+
+                <li class="skill-group">
+                  <h4>SQL</h4>
+                  <p>
+                    Adquirí experiencia práctica con MySQL durante mis prácticas en Inerza.
+                  </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_8"></div>
+                  </div>
+                </li>
+
+                <li class="skill-group">
+                  <h4>Lenguaje C</h4>
+                  <p>
+                    Experimenté con el lenguaje de programación C en proyectos universitarios.
+                  </p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_10"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+
+              <ul class="skill-subsection">
+                <h3>Sistemas Operativos</h3>
+                <li class="skill-group">
+                  <h4>Linux</h4>
+                  <p>Amplia experiencia con entornos Linux, habiendo realizado todo el desarrollo profesional en sistemas basados en Linux.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_9"></div>
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="skill-subsection">
+                <h3>Desarrollo Web</h3>
+                <li class="skill-group">
+                  <h4>HTML / CSS / JS</h4>
+                  <p>Desarrollo de páginas web frontend (como este portafolio web) para proyectos backend personales experimentales.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_12"></div>
+                  </div>
+                </li>
+                <li class="skill-group">
+                  <h4>NodeJS</h4>
+                  <p>Uso de NodeJS como backend en proyectos personales experimentales.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_12"></div>
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="skill-subsection">
+                <h3>Control de Versiones</h3>
+                <li class="skill-group">
+                  <h4>Git</h4>
+                  <p>He utilizado Git para gestionar el control de versiones desde la universidad y en experiencia profesional.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_git"></div>
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="skill-subsection">
+                <h3>DevOps y Microservicios</h3>
+                <li class="skill-group">
+                  <h4>Docker</h4>
+                  <p>Creación de imágenes simples y multi-etapa, enfocándome en construirlas eficientemente mediante la investigación y aplicación de mejores prácticas para la optimización del tamaño.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_docker"></div>
+                  </div>
+                </li>
+                <li class="skill-group">
+                  <h4>Kubernetes</h4>
+                  <p>Experiencia adquirida y uso regular de Kubernetes a través de la práctica en proyectos del Grupo Indra.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_k8s"></div>
+                  </div>
+                </li>
+                <li class="skill-group">
+                  <h4>Helm Charts</h4>
+                  <p>Instalación de despliegues en Kubernetes mediante Helm Charts en proyectos del Grupo Indra.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_helm"></div>
+                  </div>
+                </li>
+                <li class="skill-group">
+                  <h4>OpenShift</h4>
+                  <p>Soporte a los clústeres de Kubernetes y despliegues de Helm Charts utilizando la herramienta OpenShift.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_openshift"></div>
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="skill-subsection">
+                <h3>Datos y Mensajería</h3>
+                <li class="skill-group">
+                  <h4>Apache Kafka</h4>
+                  <p>Desarrollo de microservicios Java en el Grupo Indra que interactúan con colas de Kafka.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_kafka"></div>
+                  </div>
+                </li>
+                <li class="skill-group">
+                  <h4>AKHQ</h4>
+                  <p>Experimentación con colas de Kafka a través de la herramienta web AKHQ.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_akhq"></div>
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="skill-subsection">
+                <h3>Frameworks y Librerías</h3>
+                <li class="skill-group">
+                  <h4>Electron (Framework de Python/JS)</h4>
+                  <p>Uso del framework Electron en mi Proyecto Final de Carrera para conectar el backend en Python con el frontend en JS de mi aplicación.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_electron"></div>
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="skill-subsection">
+                <h3>Otras Herramientas y Tecnologías</h3>
+                <li class="skill-group">
+                  <h4>Ollama</h4>
+                  <p>Experimentación con LLMs de código abierto a través de Ollama y su API, y desarrollo de un chatbot web sencillo con Python y Node.</p>
+                  <div class="progress_bar">
+                    <div class="progress_perc" id="sk_ollama"></div>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+            
+          </div>
+        </article>
+
+        <article id="portfolio" class="portfolio" data-page="proyectos">
+          <h2>Proyectos Personales</h2>
+
+          <p>Algunos de los proyectos realizados durante la carrera.</p>
+
+          <div id="main-project">
+            <a
+              href="https://github.com/G10on/LeniaPlus-Framework-Final-Project.git"
+            >
+              <video style="width:100%;" autoplay loop muted controls="false">
+                <source
+                  src="assets/Personal_Web_TFG_Demo.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <h4>Simulador Autómata Celular (Trabajo de Fin De Grado)</h4>
+              <p>
+                Simulador de la reciente familia de autómatas celulares llamada
+                Lenia (Bert Chan, 2018), que tiene un gran potencial en el campo
+                de la Vida Artificial. Esta herramienta permite experimentar con
+                distintos parámetros que definen a estos autómatas, así como
+                evaluar distintas métricas de la simulación.
+              </p>
+              <p>
+                <ul>
+                  Desarrollado con:
+                  <br> - Procesamiento / backend: <b>Python</b> (Numpy, Scipy, JAX, Eel...)
+                  <br> - Interfaz / frontend: tecnologías web clásicas <b>(HTML, CSS, JS)</b>
+                </ul>
+              </p>
+            </a>
+          </div>
+
+          <ul id="portfolio-list">
+            <li>
+              <a href="https://github.com/G10on/Prototype-ComparApp.git">
+                <img src="assets/ComparApp.png" />
+                <h4>ComparApp (En equipo)</h4>
+                <p>
+                  Aplicación de Supermercado, desarrollada con Kotlin y FireBase, 
+                  implementada en equipo. 
+                  Desarrolladores: <b> 
+                  <a href="https://github.com/melbaperez"> @melbaperez, </a>   
+                  <a href="https://github.com/AiramLemes"> @AiramLemes, </a>   
+                  <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> 
+                  <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
+                </p>
+
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/G10on/netbond/blob/main/docs/MEMORIA%20-%20NETBOND.pdf">
+                <img src="assets/NetBond.png" />
+                <h4>NetBond (En equipo)</h4>
+                <p>
+                  Aplicación de Red Social, desarrollada con Kotlin y FireBase, 
+                  implementada en equipo. 
+                  Desarrolladores: <b> 
+                  <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> 
+                  <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
+                </p>
+
+              </a>
+            </li>
+          </ul>
         </article>
 
         <article id="education" class="education" data-page="educación">
@@ -328,295 +715,8 @@
               <p>Permiso de conducir (B)</p>
             </li>
           </ul>
-
         </article>
 
-        <article id="skills" class="skills" data-page="habilidades">
-          <h2>Skills / Habilidades</h2>
-
-          <div class="aside_section">
-            <div class="aside_section only-small">
-              <h3>Aptitudes</h3>
-
-              <ul>
-                <li>
-                  <p>Autodidacta</p>
-                  <div class="progress_bar">
-                    <div class="progress_perc" id="sk_1"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <p>Trabajo en equipo</p>
-                  <div class="progress_bar">
-                    <div class="progress_perc" id="sk_2"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <p>Proactivo</p>
-                  <div class="progress_bar">
-                    <div class="progress_perc" id="sk_3"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <p>Organización</p>
-                  <div class="progress_bar">
-                    <div class="progress_perc" id="sk_4"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <p>Resolutivo</p>
-                  <div class="progress_bar">
-                    <div class="progress_perc" id="sk_5"></div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <h3>Desarrollo Software</h3>
-
-            <ul>
-              <li>
-                <p>Python</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_6"></div>
-                </div>
-              </li>
-
-              <li>
-                <p>Java</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_7"></div>
-                </div>
-              </li>
-
-              <li>
-                <p>SQL</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_8"></div>
-                </div>
-              </li>
-
-              <li>
-                <p>Linux</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_9"></div>
-                </div>
-              </li>
-
-              <li>
-                <p>C</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_10"></div>
-                </div>
-              </li>
-            </ul>
-
-            <h3>Desarrollo Web</h3>
-
-            <ul>
-              <li>
-                <p>HTML</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_12"></div>
-                </div>
-              </li>
-
-              <li>
-                <p>CSS</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_13"></div>
-                </div>
-              </li>
-
-              <li>
-                <p>JavaScript</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_14"></div>
-                </div>
-              </li>
-
-              <li>
-                <p>Angular Framework</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_15"></div>
-                </div>
-              </li>
-
-              <li>
-                <p>Wordpress</p>
-                <div class="progress_bar">
-                  <div class="progress_perc" id="sk_16"></div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </article>
-
-        <article id="portfolio" class="portfolio" data-page="proyectos">
-          <h2>Proyectos Personales</h2>
-
-          <p>Algunos de los proyectos realizados durante la carrera.</p>
-
-          <div id="main-project">
-            <a
-              href="https://github.com/G10on/LeniaPlus-Framework-Final-Project.git"
-            >
-              <video style="width:100%;" autoplay loop muted controls="false">
-                <source
-                  src="assets/Personal_Web_TFG_Demo.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <h4>Simulador Autómata Celular (Trabajo de Fin De Grado)</h4>
-              <p>
-                Simulador de la reciente familia de autómatas celulares llamada
-                Lenia (Bert Chan, 2018), que tiene un gran potencial en el campo
-                de la Vida Artificial. Esta herramienta permite experimentar con
-                distintos parámetros que definen a estos autómatas, así como
-                evaluar distintas métricas de la simulación.
-              </p>
-              <p>
-                <ul>
-                  Desarrollado con:
-                  <br> - Procesamiento / backend: <b>Python</b> (Numpy, Scipy, JAX, Eel...)
-                  <br> - Interfaz / frontend: tecnologías web clásicas <b>(HTML, CSS, JS)</b>
-                </ul>
-              </p>
-            </a>
-          </div>
-
-          <ul id="portfolio-list">
-            <li>
-              <a href="https://github.com/G10on/Prototype-ComparApp.git">
-                <img src="assets/ComparApp.png" />
-                <h4>ComparApp (En equipo)</h4>
-                <p>
-                  Aplicación de Supermercado, desarrollada con Kotlin y FireBase, 
-                  implementada en equipo. 
-                  Desarrolladores: <b> 
-                  <a href="https://github.com/melbaperez"> @melbaperez, </a>   
-                  <a href="https://github.com/AiramLemes"> @AiramLemes, </a>   
-                  <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> 
-                  <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
-                </p>
-
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/G10on/netbond/blob/main/docs/MEMORIA%20-%20NETBOND.pdf">
-                <img src="assets/NetBond.png" />
-                <h4>NetBond (En equipo)</h4>
-                <p>
-                  Aplicación de Red Social, desarrollada con Kotlin y FireBase, 
-                  implementada en equipo. 
-                  Desarrolladores: <b> 
-                  <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> 
-                  <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
-                </p>
-
-              </a>
-            </li>
-
-            <li>
-              <!-- <a href=""> -->
-              <img src="assets/BookStore.png" />
-              <h4>Book WebStore</h4>
-              <p>
-                Una tienda de libros online, mediante los Servlets del lenguaje
-                Java.
-              </p>
-
-              <!-- </a> -->
-            </li>
-
-            <li>
-              <a href="https://github.com/bank-apps/app">
-                <img src="assets/BankApp.png" />
-                <h4>BankApp (En equipo)</h4>
-                <p>
-                  Web Bancaria Sencilla, desarrollada con Java y SQLite,
-                  mediante Servlets.
-                  Desarrolladores: <b> <a href="https://github.com/nahimaort"> @nahimaort, </a> 
-                    <a href="https://github.com/SamuelRodri"> @SamuelRodri, </a>  
-                    <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a>  
-                    <a href="https://github.com/sebastianfernandezgarcia"> @sebastianfernandezgarcia, </a>  
-                    <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
-                </p>
-              </a>
-            </li>
-            <!--
-            <li>
-              <img src="https://imgs.search.brave.com/mWwTrIEm0exXRnhAsoabHioCsXgxQCdV1qaz_IJNyXI/rs:fit:864:480:1/g:ce/aHR0cHM6Ly9jb250/ZW50LnRlY2hnaWcu/Y29tL3Bob3RvLzc4/OTQ5MTEwLzktYmVz/dC1wcm9ncmFtbWlu/Zy1wcm9qZWN0LWlk/ZWFzLWZvci1iZWdp/bm5lcnMtdG8tbGV2/ZWwtdXAtdGhlaXIt/Y29kaW5nLXNraWxs/cy5qcGc_MTE5MDU4">
-              <h4>Malicious URL Scanner</h4>
-              <p>Modelo de Machine Learning que, a partir de una URL, se acceden a diferentes atributos y se comprueba su seguridad, mediante Tensorflow</p>
-
-            </li>
-            -->
-
-            <li>
-              <a href="https://github.com/G10on/FSI-Red-Neuronal">
-                <img src="assets/ImgClassify.png" />
-                <h4>Satellite Image Classification (En equipo)</h4>
-                <p>
-                  Modelo de Machine Learning que clasifica varias clases de
-                  imágenes, mediante Tensorflow.
-                  Desarrolladores: <b> <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
-                </p>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="https://github.com/nahimaort/CanaryAdventure/tree/sprint4"
-              >
-                <img src="assets/CanAdv.png" />
-                <h4>Tourism Web/App (En equipo)</h4>
-                <p>
-                  Web/Aplicación que sirve como guía turística de Canarias,
-                  desarrollada mediante Angular e IONIC. 
-                  Desarrolladores: <b> <a href="https://github.com/nahimaort"> @nahimaort, </a> <a href="https://github.com/hathiramaniaashish"> @hathiramaniaashish, </a> <a href="https://github.com/g10on"> y @G10on (yo) </a> </b>
-                </p>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://github.com/G10on/ImageViewer">
-                <img src="assets/ImageViewer.png" />
-                <h4>Image Viewer</h4>
-                <p>
-                  Programa sencillo de visualización de imágenes, mediante Java
-                </p>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://github.com/G10on/BlackJackTDD">
-                <img src="assets/BlackJack.jpg" />
-                <h4>CLI Black Jack</h4>
-                <p>
-                  Clásico juego de Black Jack sobre línea de comandos,
-                  desarrollado con Java mediante Test Driven Data (TDD)
-                </p>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://github.com/G10on/MoneyCalculator">
-                <img src="assets/CurrencyConversor.png" />
-                <h4>Currency Conversor</h4>
-                <p>
-                  Programa sencillo de conversor de divisas, desarrollado
-                  mediante Java
-                </p>
-              </a>
-            </li>
-          </ul>
-        </article>
       </div>
     </main>
   </body>
